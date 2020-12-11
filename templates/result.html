@@ -23,7 +23,7 @@
 		<div class="results">
 			{% if prediction==1 %}
 				<h1>Prediction: <span class='danger'>Great! This is Positive review.</span></h1>
-				<img class="gif" src="{{ url_for('static', filename='Positive.webp') }}" alt="Positive review">
+				<img class="gif" src="{{ url_for('static', filename='positive.webp') }}" alt="Positive review">
 			{% elif prediction==0 %}
 				<h1>Prediction: <span class='safe'>Oops! This is Negative review.</span></h1>
 				<img class="gif" src="{{ url_for('static', filename='negative.webp') }}" alt="Negative review">
